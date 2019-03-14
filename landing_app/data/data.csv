@@ -1,298 +1,307 @@
-"","Year","area","measurement"
-"1",1986,"State Landings","2201007"
-"2",1987,"State Landings","3791748"
-"3",1988,"State Landings","2192095"
-"4",1989,"State Landings","1857754"
-"5",1990,"State Landings","2250475"
-"6",1991,"State Landings","1917655"
-"7",1992,"State Landings","2628142"
-"8",1993,"State Landings","2788595"
-"9",1994,"State Landings","2110112"
-"10",1995,"State Landings","1512545"
-"11",1996,"State Landings","1447417"
-"12",1997,"State Landings","1898939"
-"13",1998,"State Landings","1532785"
-"14",1999,"State Landings","2331718"
-"15",2000,"State Landings","2570230"
-"16",2001,"State Landings","2582715"
-"17",2002,"State Landings","1935435"
-"18",2003,"State Landings","1734664"
-"19",2004,"State Landings","1670528"
-"20",2005,"State Landings","1455028"
-"21",2006,"State Landings","2444883"
-"22",2007,"State Landings","3028175"
-"23",2008,"State Landings","2562153"
-"24",2009,"State Landings","2915429"
-"25",2010,"State Landings","2210328"
-"26",2011,"State Landings","3179210"
-"27",2012,"State Landings","3408904"
-"28",2013,"State Landings","1290470"
-"29",2014,"State Landings","753797"
-"30",2015,"State Landings","846441"
-"31",2016,"State Landings","881813"
-"32",2017,"State Landings","823396"
-"33",2018,"State Landings","339033"
-"34",1986,"State Trips","18435"
-"35",1987,"State Trips","52592"
-"36",1988,"State Trips","45588"
-"37",1989,"State Trips","38567"
-"38",1990,"State Trips","41546"
-"39",1991,"State Trips","35294"
-"40",1992,"State Trips","38618"
-"41",1993,"State Trips","33505"
-"42",1994,"State Trips","24540"
-"43",1995,"State Trips","18587"
-"44",1996,"State Trips","15853"
-"45",1997,"State Trips","21204"
-"46",1998,"State Trips","18569"
-"47",1999,"State Trips","27376"
-"48",2000,"State Trips","28762"
-"49",2001,"State Trips","28566"
-"50",2002,"State Trips","23200"
-"51",2003,"State Trips","22297"
-"52",2004,"State Trips","20272"
-"53",2005,"State Trips","15072"
-"54",2006,"State Trips","26397"
-"55",2007,"State Trips","33198"
-"56",2008,"State Trips","31605"
-"57",2009,"State Trips","42984"
-"58",2010,"State Trips","36086"
-"59",2011,"State Trips","51358"
-"60",2012,"State Trips","59344"
-"61",2013,"State Trips","29984"
-"62",2014,"State Trips","21894"
-"63",2015,"State Trips","24899"
-"64",2016,"State Trips","25711"
-"65",2017,"State Trips","24590"
-"66",2018,"State Trips","7638"
-"67",1986,"State Per Trips","119.3928397"
-"68",1987,"State Per Trips","72.09742927"
-"69",1988,"State Per Trips","48.0849127"
-"70",1989,"State Per Trips","48.16952317"
-"71",1990,"State Per Trips","54.16827131"
-"72",1991,"State Per Trips","54.33373945"
-"73",1992,"State Per Trips","68.05484489"
-"74",1993,"State Per Trips","83.22921952"
-"75",1994,"State Per Trips","85.98663407"
-"76",1995,"State Per Trips","81.3764997"
-"77",1996,"State Per Trips","91.30240333"
-"78",1997,"State Per Trips","89.55569704"
-"79",1998,"State Per Trips","82.54537132"
-"80",1999,"State Per Trips","85.17380187"
-"81",2000,"State Per Trips","89.36200542"
-"82",2001,"State Per Trips","90.41220332"
-"83",2002,"State Per Trips","83.42392241"
-"84",2003,"State Per Trips","77.79808943"
-"85",2004,"State Per Trips","82.40568272"
-"86",2005,"State Per Trips","96.53848195"
-"87",2006,"State Per Trips","92.61972951"
-"88",2007,"State Per Trips","91.21558528"
-"89",2008,"State Per Trips","81.06796393"
-"90",2009,"State Per Trips","67.82591197"
-"91",2010,"State Per Trips","61.25167655"
-"92",2011,"State Per Trips","61.90291678"
-"93",2012,"State Per Trips","57.44311135"
-"94",2013,"State Per Trips","43.0386206"
-"95",2014,"State Per Trips","34.42938705"
-"96",2015,"State Per Trips","33.99497972"
-"97",2016,"State Per Trips","34.29711019"
-"98",2017,"State Per Trips","32.63605458"
-"99",2018,"State Per Trips","44.38766693"
-"100",1986,"Apalach Landings","620512"
-"101",1987,"Apalach Landings","2918389"
-"102",1988,"Apalach Landings","1338499"
-"103",1989,"Apalach Landings","882263"
-"104",1990,"Apalach Landings","1563583"
-"105",1991,"Apalach Landings","1332124"
-"106",1992,"Apalach Landings","1901981"
-"107",1993,"Apalach Landings","2069119"
-"108",1994,"Apalach Landings","1532347"
-"109",1995,"Apalach Landings","1075808"
-"110",1996,"Apalach Landings","1025891"
-"111",1997,"Apalach Landings","1445137"
-"112",1998,"Apalach Landings","1397643"
-"113",1999,"Apalach Landings","2137790"
-"114",2000,"Apalach Landings","2355226"
-"115",2001,"Apalach Landings","2406752"
-"116",2002,"Apalach Landings","1783180"
-"117",2003,"Apalach Landings","1485254"
-"118",2004,"Apalach Landings","1524426"
-"119",2005,"Apalach Landings","1290830"
-"120",2006,"Apalach Landings","2194110"
-"121",2007,"Apalach Landings","2790738"
-"122",2008,"Apalach Landings","2346790"
-"123",2009,"Apalach Landings","2748783"
-"124",2010,"Apalach Landings","2049107"
-"125",2011,"Apalach Landings","2900451"
-"126",2012,"Apalach Landings","3088823"
-"127",2013,"Apalach Landings","1074653"
-"128",2014,"Apalach Landings","608985"
-"129",2015,"Apalach Landings","518204"
-"130",2016,"Apalach Landings","374051"
-"131",2017,"Apalach Landings","268291"
-"132",2018,"Apalach Landings","46408"
-"133",1986,"Apalach Trips","7191"
-"134",1987,"Apalach Trips","39604"
-"135",1988,"Apalach Trips","31226"
-"136",1989,"Apalach Trips","22617"
-"137",1990,"Apalach Trips","27715"
-"138",1991,"Apalach Trips","24903"
-"139",1992,"Apalach Trips","27676"
-"140",1993,"Apalach Trips","25118"
-"141",1994,"Apalach Trips","17830"
-"142",1995,"Apalach Trips","13190"
-"143",1996,"Apalach Trips","10917"
-"144",1997,"Apalach Trips","15774"
-"145",1998,"Apalach Trips","16278"
-"146",1999,"Apalach Trips","24534"
-"147",2000,"Apalach Trips","25511"
-"148",2001,"Apalach Trips","25903"
-"149",2002,"Apalach Trips","20686"
-"150",2003,"Apalach Trips","18526"
-"151",2004,"Apalach Trips","17838"
-"152",2005,"Apalach Trips","12951"
-"153",2006,"Apalach Trips","23044"
-"154",2007,"Apalach Trips","29984"
-"155",2008,"Apalach Trips","28126"
-"156",2009,"Apalach Trips","40377"
-"157",2010,"Apalach Trips","33570"
-"158",2011,"Apalach Trips","47692"
-"159",2012,"Apalach Trips","54503"
-"160",2013,"Apalach Trips","26120"
-"161",2014,"Apalach Trips","18528"
-"162",2015,"Apalach Trips","18317"
-"163",2016,"Apalach Trips","16462"
-"164",2017,"Apalach Trips","14356"
-"165",2018,"Apalach Trips","2321"
-"166",1986,"Apalach Per Trips","86.29008483"
-"167",1987,"Apalach Per Trips","73.68924856"
-"168",1988,"Apalach Per Trips","42.86488823"
-"169",1989,"Apalach Per Trips","39.00884291"
-"170",1990,"Apalach Per Trips","56.41648927"
-"171",1991,"Apalach Per Trips","53.49251094"
-"172",1992,"Apalach Per Trips","68.7231175"
-"173",1993,"Apalach Per Trips","82.37594554"
-"174",1994,"Apalach Per Trips","85.94206394"
-"175",1995,"Apalach Per Trips","81.56239575"
-"176",1996,"Apalach Per Trips","93.97187872"
-"177",1997,"Apalach Per Trips","91.61512616"
-"178",1998,"Apalach Per Trips","85.86085514"
-"179",1999,"Apalach Per Trips","87.13581153"
-"180",2000,"Apalach Per Trips","92.32197875"
-"181",2001,"Apalach Per Trips","92.9140254"
-"182",2002,"Apalach Per Trips","86.2022624"
-"183",2003,"Apalach Per Trips","80.17132678"
-"184",2004,"Apalach Per Trips","85.45946855"
-"185",2005,"Apalach Per Trips","99.67029573"
-"186",2006,"Apalach Per Trips","95.21393855"
-"187",2007,"Apalach Per Trips","93.07423959"
-"188",2008,"Apalach Per Trips","83.43845552"
-"189",2009,"Apalach Per Trips","68.07794041"
-"190",2010,"Apalach Per Trips","61.03982723"
-"191",2011,"Apalach Per Trips","60.81630043"
-"192",2012,"Apalach Per Trips","56.67253179"
-"193",2013,"Apalach Per Trips","41.1429173"
-"194",2014,"Apalach Per Trips","32.8683614"
-"195",2015,"Apalach Per Trips","28.29087733"
-"196",2016,"Apalach Per Trips","22.72208723"
-"197",2017,"Apalach Per Trips","18.68842296"
-"198",2018,"Apalach Per Trips","19.99482981"
-"199",1986,"Suwannee Landings","1077487"
-"200",1987,"Suwannee Landings","496523"
-"201",1988,"Suwannee Landings","505228"
-"202",1989,"Suwannee Landings","728627"
-"203",1990,"Suwannee Landings","367777"
-"204",1991,"Suwannee Landings","152971"
-"205",1992,"Suwannee Landings","90914"
-"206",1993,"Suwannee Landings","68892"
-"207",1994,"Suwannee Landings","103011"
-"208",1995,"Suwannee Landings","60304"
-"209",1996,"Suwannee Landings","73435"
-"210",1997,"Suwannee Landings","87534"
-"211",1998,"Suwannee Landings","63721"
-"212",1999,"Suwannee Landings","136741"
-"213",2000,"Suwannee Landings","122137"
-"214",2001,"Suwannee Landings","78007"
-"215",2002,"Suwannee Landings","89290"
-"216",2003,"Suwannee Landings","77283"
-"217",2004,"Suwannee Landings","54598"
-"218",2005,"Suwannee Landings","120342"
-"219",2006,"Suwannee Landings","178436"
-"220",2007,"Suwannee Landings","188671"
-"221",2008,"Suwannee Landings","128169"
-"222",2009,"Suwannee Landings","63265"
-"223",2010,"Suwannee Landings","58894"
-"224",2011,"Suwannee Landings","147420"
-"225",2012,"Suwannee Landings","169129"
-"226",2013,"Suwannee Landings","150579"
-"227",2014,"Suwannee Landings","65728"
-"228",2015,"Suwannee Landings","210000"
-"229",2016,"Suwannee Landings","374166"
-"230",2017,"Suwannee Landings","477037"
-"231",2018,"Suwannee Landings","259337"
-"232",1986,"Suwannee Trips","6637"
-"233",1987,"Suwannee Trips","7126"
-"234",1988,"Suwannee Trips","7851"
-"235",1989,"Suwannee Trips","11476"
-"236",1990,"Suwannee Trips","8665"
-"237",1991,"Suwannee Trips","3214"
-"238",1992,"Suwannee Trips","1932"
-"239",1993,"Suwannee Trips","1175"
-"240",1994,"Suwannee Trips","1656"
-"241",1995,"Suwannee Trips","1019"
-"242",1996,"Suwannee Trips","1046"
-"243",1997,"Suwannee Trips","1335"
-"244",1998,"Suwannee Trips","962"
-"245",1999,"Suwannee Trips","1740"
-"246",2000,"Suwannee Trips","1907"
-"247",2001,"Suwannee Trips","1220"
-"248",2002,"Suwannee Trips","1354"
-"249",2003,"Suwannee Trips","1266"
-"250",2004,"Suwannee Trips","872"
-"251",2005,"Suwannee Trips","1187"
-"252",2006,"Suwannee Trips","2063"
-"253",2007,"Suwannee Trips","2216"
-"254",2008,"Suwannee Trips","2040"
-"255",2009,"Suwannee Trips","1162"
-"256",2010,"Suwannee Trips","913"
-"257",2011,"Suwannee Trips","1634"
-"258",2012,"Suwannee Trips","2028"
-"259",2013,"Suwannee Trips","2057"
-"260",2014,"Suwannee Trips","1248"
-"261",2015,"Suwannee Trips","3689"
-"262",2016,"Suwannee Trips","6213"
-"263",2017,"Suwannee Trips","8241"
-"264",2018,"Suwannee Trips","4400"
-"265",1986,"Suwannee per Trips","162.3454874"
-"266",1987,"Suwannee per Trips","69.67765928"
-"267",1988,"Suwannee per Trips","64.35205706"
-"268",1989,"Suwannee per Trips","63.4913733"
-"269",1990,"Suwannee per Trips","42.44396999"
-"270",1991,"Suwannee per Trips","47.59520846"
-"271",1992,"Suwannee per Trips","47.05693582"
-"272",1993,"Suwannee per Trips","58.63148936"
-"273",1994,"Suwannee per Trips","62.20471014"
-"274",1995,"Suwannee per Trips","59.17958783"
-"275",1996,"Suwannee per Trips","70.20554493"
-"276",1997,"Suwannee per Trips","65.56853933"
-"277",1998,"Suwannee per Trips","66.23804574"
-"278",1999,"Suwannee per Trips","78.58678161"
-"279",2000,"Suwannee per Trips","64.04667016"
-"280",2001,"Suwannee per Trips","63.94016393"
-"281",2002,"Suwannee per Trips","65.94534712"
-"282",2003,"Suwannee per Trips","61.0450237"
-"283",2004,"Suwannee per Trips","62.61238532"
-"284",2005,"Suwannee per Trips","101.3833193"
-"285",2006,"Suwannee per Trips","86.49345613"
-"286",2007,"Suwannee per Trips","85.14034296"
-"287",2008,"Suwannee per Trips","62.82794118"
-"288",2009,"Suwannee per Trips","54.44492255"
-"289",2010,"Suwannee per Trips","64.5060241"
-"290",2011,"Suwannee per Trips","90.22031824"
-"291",2012,"Suwannee per Trips","83.3969428"
-"292",2013,"Suwannee per Trips","73.20320856"
-"293",2014,"Suwannee per Trips","52.66666667"
-"294",2015,"Suwannee per Trips","56.9259962"
-"295",2016,"Suwannee per Trips","60.22308064"
-"296",2017,"Suwannee per Trips","57.88581483"
-"297",2018,"Suwannee per Trips","58.94022727"
+,Year,area,measurement
+1,1986,State Landings,2201007
+2,1987,State Landings,3791748
+3,1988,State Landings,2192095
+4,1989,State Landings,1857754
+5,1990,State Landings,2250475
+6,1991,State Landings,1917655
+7,1992,State Landings,2628142
+8,1993,State Landings,2788595
+9,1994,State Landings,2110112
+10,1995,State Landings,1512545
+11,1996,State Landings,1447417
+12,1997,State Landings,1898939
+13,1998,State Landings,1532785
+14,1999,State Landings,2331718
+15,2000,State Landings,2570230
+16,2001,State Landings,2582715
+17,2002,State Landings,1935435
+18,2003,State Landings,1734664
+19,2004,State Landings,1670528
+20,2005,State Landings,1455028
+21,2006,State Landings,2444883
+22,2007,State Landings,3028175
+23,2008,State Landings,2562153
+24,2009,State Landings,2915429
+25,2010,State Landings,2210328
+26,2011,State Landings,3179210
+27,2012,State Landings,3408904
+28,2013,State Landings,1290470
+29,2014,State Landings,753797
+30,2015,State Landings,846441
+31,2016,State Landings,881813
+32,2017,State Landings,823396
+33,2018,State Landings,525572
+34,2019,State Landings,46005
+35,1986,State Trips,18435
+36,1987,State Trips,52592
+37,1988,State Trips,45588
+38,1989,State Trips,38567
+39,1990,State Trips,41546
+40,1991,State Trips,35294
+41,1992,State Trips,38618
+42,1993,State Trips,33505
+43,1994,State Trips,24540
+44,1995,State Trips,18587
+45,1996,State Trips,15853
+46,1997,State Trips,21204
+47,1998,State Trips,18569
+48,1999,State Trips,27376
+49,2000,State Trips,28762
+50,2001,State Trips,28566
+51,2002,State Trips,23200
+52,2003,State Trips,22297
+53,2004,State Trips,20272
+54,2005,State Trips,15072
+55,2006,State Trips,26397
+56,2007,State Trips,33198
+57,2008,State Trips,31605
+58,2009,State Trips,42984
+59,2010,State Trips,36086
+60,2011,State Trips,51358
+61,2012,State Trips,59344
+62,2013,State Trips,29984
+63,2014,State Trips,21894
+64,2015,State Trips,24899
+65,2016,State Trips,25711
+66,2017,State Trips,24590
+67,2018,State Trips,11881
+68,2019,State Trips,884
+69,1986,State Per Trips,119.3928397
+70,1987,State Per Trips,72.09742927
+71,1988,State Per Trips,48.0849127
+72,1989,State Per Trips,48.16952317
+73,1990,State Per Trips,54.16827131
+74,1991,State Per Trips,54.33373945
+75,1992,State Per Trips,68.05484489
+76,1993,State Per Trips,83.22921952
+77,1994,State Per Trips,85.98663407
+78,1995,State Per Trips,81.3764997
+79,1996,State Per Trips,91.30240333
+80,1997,State Per Trips,89.55569704
+81,1998,State Per Trips,82.54537132
+82,1999,State Per Trips,85.17380187
+83,2000,State Per Trips,89.36200542
+84,2001,State Per Trips,90.41220332
+85,2002,State Per Trips,83.42392241
+86,2003,State Per Trips,77.79808943
+87,2004,State Per Trips,82.40568272
+88,2005,State Per Trips,96.53848195
+89,2006,State Per Trips,92.61972951
+90,2007,State Per Trips,91.21558528
+91,2008,State Per Trips,81.06796393
+92,2009,State Per Trips,67.82591197
+93,2010,State Per Trips,61.25167655
+94,2011,State Per Trips,61.90291678
+95,2012,State Per Trips,57.44311135
+96,2013,State Per Trips,43.0386206
+97,2014,State Per Trips,34.42938705
+98,2015,State Per Trips,33.99497972
+99,2016,State Per Trips,34.29711019
+100,2017,State Per Trips,32.63605458
+101,2018,State Per Trips,44.23634
+102,2019,State Per Trips,52.041
+103,1986,Apalach Landings,620512
+104,1987,Apalach Landings,2918389
+105,1988,Apalach Landings,1338499
+106,1989,Apalach Landings,882263
+107,1990,Apalach Landings,1563583
+108,1991,Apalach Landings,1332124
+109,1992,Apalach Landings,1901981
+110,1993,Apalach Landings,2069119
+111,1994,Apalach Landings,1532347
+112,1995,Apalach Landings,1075808
+113,1996,Apalach Landings,1025891
+114,1997,Apalach Landings,1445137
+115,1998,Apalach Landings,1397643
+116,1999,Apalach Landings,2137790
+117,2000,Apalach Landings,2355226
+118,2001,Apalach Landings,2406752
+119,2002,Apalach Landings,1783180
+120,2003,Apalach Landings,1485254
+121,2004,Apalach Landings,1524426
+122,2005,Apalach Landings,1290830
+123,2006,Apalach Landings,2194110
+124,2007,Apalach Landings,2790738
+125,2008,Apalach Landings,2346790
+126,2009,Apalach Landings,2748783
+127,2010,Apalach Landings,2049107
+128,2011,Apalach Landings,2900451
+129,2012,Apalach Landings,3088823
+130,2013,Apalach Landings,1074653
+131,2014,Apalach Landings,608985
+132,2015,Apalach Landings,518204
+133,2016,Apalach Landings,374051
+134,2017,Apalach Landings,268291
+135,2018,Apalach Landings,57108
+136,2019,Apalach Landings,328
+137,1986,Apalach Trips,7191
+138,1987,Apalach Trips,39604
+139,1988,Apalach Trips,31226
+140,1989,Apalach Trips,22617
+141,1990,Apalach Trips,27715
+142,1991,Apalach Trips,24903
+143,1992,Apalach Trips,27676
+144,1993,Apalach Trips,25118
+145,1994,Apalach Trips,17830
+146,1995,Apalach Trips,13190
+147,1996,Apalach Trips,10917
+148,1997,Apalach Trips,15774
+149,1998,Apalach Trips,16278
+150,1999,Apalach Trips,24534
+151,2000,Apalach Trips,25511
+152,2001,Apalach Trips,25903
+153,2002,Apalach Trips,20686
+154,2003,Apalach Trips,18526
+155,2004,Apalach Trips,17838
+156,2005,Apalach Trips,12951
+157,2006,Apalach Trips,23044
+158,2007,Apalach Trips,29984
+159,2008,Apalach Trips,28126
+160,2009,Apalach Trips,40377
+161,2010,Apalach Trips,33570
+162,2011,Apalach Trips,47692
+163,2012,Apalach Trips,54503
+164,2013,Apalach Trips,26120
+165,2014,Apalach Trips,18528
+166,2015,Apalach Trips,18317
+167,2016,Apalach Trips,16462
+168,2017,Apalach Trips,14356
+169,2018,Apalach Trips,2856
+170,2019,Apalach Trips,3
+171,1986,Apalach Per Trips,86.29008483
+172,1987,Apalach Per Trips,73.68924856
+173,1988,Apalach Per Trips,42.86488823
+174,1989,Apalach Per Trips,39.00884291
+175,1990,Apalach Per Trips,56.41648927
+176,1991,Apalach Per Trips,53.49251094
+177,1992,Apalach Per Trips,68.7231175
+178,1993,Apalach Per Trips,82.37594554
+179,1994,Apalach Per Trips,85.94206394
+180,1995,Apalach Per Trips,81.56239575
+181,1996,Apalach Per Trips,93.97187872
+182,1997,Apalach Per Trips,91.61512616
+183,1998,Apalach Per Trips,85.86085514
+184,1999,Apalach Per Trips,87.13581153
+185,2000,Apalach Per Trips,92.32197875
+186,2001,Apalach Per Trips,92.9140254
+187,2002,Apalach Per Trips,86.2022624
+188,2003,Apalach Per Trips,80.17132678
+189,2004,Apalach Per Trips,85.45946855
+190,2005,Apalach Per Trips,99.67029573
+191,2006,Apalach Per Trips,95.21393855
+192,2007,Apalach Per Trips,93.07423959
+193,2008,Apalach Per Trips,83.43845552
+194,2009,Apalach Per Trips,68.07794041
+195,2010,Apalach Per Trips,61.03982723
+196,2011,Apalach Per Trips,60.81630043
+197,2012,Apalach Per Trips,56.67253179
+198,2013,Apalach Per Trips,41.1429173
+199,2014,Apalach Per Trips,32.8683614
+200,2015,Apalach Per Trips,28.29087733
+201,2016,Apalach Per Trips,22.72208723
+202,2017,Apalach Per Trips,18.68842296
+203,2018,Apalach Per Trips,19.99482981
+204,2019,Apalach Per Trips,164
+205,1986,Suwannee Landings,1077487
+206,1987,Suwannee Landings,496523
+207,1988,Suwannee Landings,505228
+208,1989,Suwannee Landings,728627
+209,1990,Suwannee Landings,367777
+210,1991,Suwannee Landings,152971
+211,1992,Suwannee Landings,90914
+212,1993,Suwannee Landings,68892
+213,1994,Suwannee Landings,103011
+214,1995,Suwannee Landings,60304
+215,1996,Suwannee Landings,73435
+216,1997,Suwannee Landings,87534
+217,1998,Suwannee Landings,63721
+218,1999,Suwannee Landings,136741
+219,2000,Suwannee Landings,122137
+220,2001,Suwannee Landings,78007
+221,2002,Suwannee Landings,89290
+222,2003,Suwannee Landings,77283
+223,2004,Suwannee Landings,54598
+224,2005,Suwannee Landings,120342
+225,2006,Suwannee Landings,178436
+226,2007,Suwannee Landings,188671
+227,2008,Suwannee Landings,128169
+228,2009,Suwannee Landings,63265
+229,2010,Suwannee Landings,58894
+230,2011,Suwannee Landings,147420
+231,2012,Suwannee Landings,169129
+232,2013,Suwannee Landings,150579
+233,2014,Suwannee Landings,65728
+234,2015,Suwannee Landings,210000
+235,2016,Suwannee Landings,374166
+236,2017,Suwannee Landings,477037
+237,2018,Suwannee Landings,413842
+238,2019,Suwannee Landings,42762
+239,1986,Suwannee Trips,6637
+240,1987,Suwannee Trips,7126
+241,1988,Suwannee Trips,7851
+242,1989,Suwannee Trips,11476
+243,1990,Suwannee Trips,8665
+244,1991,Suwannee Trips,3214
+245,1992,Suwannee Trips,1932
+246,1993,Suwannee Trips,1175
+247,1994,Suwannee Trips,1656
+248,1995,Suwannee Trips,1019
+249,1996,Suwannee Trips,1046
+250,1997,Suwannee Trips,1335
+251,1998,Suwannee Trips,962
+252,1999,Suwannee Trips,1740
+253,2000,Suwannee Trips,1907
+254,2001,Suwannee Trips,1220
+255,2002,Suwannee Trips,1354
+256,2003,Suwannee Trips,1266
+257,2004,Suwannee Trips,872
+258,2005,Suwannee Trips,1187
+259,2006,Suwannee Trips,2063
+260,2007,Suwannee Trips,2216
+261,2008,Suwannee Trips,2040
+262,2009,Suwannee Trips,1162
+263,2010,Suwannee Trips,913
+264,2011,Suwannee Trips,1634
+265,2012,Suwannee Trips,2028
+266,2013,Suwannee Trips,2057
+267,2014,Suwannee Trips,1248
+268,2015,Suwannee Trips,3689
+269,2016,Suwannee Trips,6213
+270,2017,Suwannee Trips,8241
+271,2018,Suwannee Trips,7550
+272,2019,Suwannee Trips,824
+273,1986,Suwannee per Trips,162.3454874
+274,1987,Suwannee per Trips,69.67765928
+275,1988,Suwannee per Trips,64.35205706
+276,1989,Suwannee per Trips,63.4913733
+277,1990,Suwannee per Trips,42.44396999
+278,1991,Suwannee per Trips,47.59520846
+279,1992,Suwannee per Trips,47.05693582
+280,1993,Suwannee per Trips,58.63148936
+281,1994,Suwannee per Trips,62.20471014
+282,1995,Suwannee per Trips,59.17958783
+283,1996,Suwannee per Trips,70.20554493
+284,1997,Suwannee per Trips,65.56853933
+285,1998,Suwannee per Trips,66.23804574
+286,1999,Suwannee per Trips,78.58678161
+287,2000,Suwannee per Trips,64.04667016
+288,2001,Suwannee per Trips,63.94016393
+289,2002,Suwannee per Trips,65.94534712
+290,2003,Suwannee per Trips,61.0450237
+291,2004,Suwannee per Trips,62.61238532
+292,2005,Suwannee per Trips,101.3833193
+293,2006,Suwannee per Trips,86.49345613
+294,2007,Suwannee per Trips,85.14034296
+295,2008,Suwannee per Trips,62.82794118
+296,2009,Suwannee per Trips,54.44492255
+297,2010,Suwannee per Trips,64.5060241
+298,2011,Suwannee per Trips,90.22031824
+299,2012,Suwannee per Trips,83.3969428
+300,2013,Suwannee per Trips,73.20320856
+301,2014,Suwannee per Trips,52.66666667
+302,2015,Suwannee per Trips,56.9259962
+303,2016,Suwannee per Trips,60.22308064
+304,2017,Suwannee per Trips,57.88581483
+305,2018,Suwannee per Trips,54.81
+306,2019,Suwannee per Trips,52.22
