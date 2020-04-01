@@ -1,7 +1,7 @@
 
 # oys_fl_landings_shiny_app 
   
-## This is the `oys_fl_landings_shiny_app` repository. This repository is to store the code and data for  the Florida Oyster Landings Shiny App.  
+This is the `oys_fl_landings_shiny_app` repository. This repository is to store the code and data for  the Florida Oyster Landings Shiny App.  
   
 ## To use the Florida Oyster Landings Shiny App:  
 1) Click on the Rproject named 'oys_fl_landings_shiny_app.Rproj'
