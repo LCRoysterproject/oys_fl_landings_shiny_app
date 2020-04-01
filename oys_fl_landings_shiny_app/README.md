@@ -1,2 +1,2 @@
 
-This is the `rsconnet` folder. This folder contains information for the Shiny App to publish to the Oyster Project Shiny.io. This folder should not be deleted or edited.  
+This is the `oys_fl_landings_shiny_app` folder. This folder contains the Shiny app `app.R` code, the `data` folder, and the `rsconnect` folder. 
