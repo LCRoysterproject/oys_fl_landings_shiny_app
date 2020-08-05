@@ -4,78 +4,101 @@ library("tidyverse")
 library("shinythemes")
 library("rsconnect")
 
+
+#Download latest county landings information from:
 #https://public.myfwc.com/FWRI/PFDM/ReportCreator.aspx
 
-#rsconnect::setAccountInfo(name='oysterprojectck',
-#                          token='F16D04C1548412A5806A896A22342C97',
-#                          secret='QoYg+iiKNQ8wysd6UfA18M4Y3YHortTMsTJT84eo')
+#Use the script create_landings_data.R to create the data file for this Shiny App
 
 
+all_landings<- read.csv ("data/landings_data.csv", header=T)
 
-data<- read.csv ("data/data.csv", header=T)
+all_landings$area<- as.character(all_landings$area)
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(theme = shinytheme("yeti"),
-              
-              
-   # Application title
+        
 
-   titlePanel("Landings Area"),
-
+   titlePanel("Commercial Oyster Landings"),
+   
+   width = 4,
    
    sidebarLayout(
       sidebarPanel(
         
-        h4("Help text"),
-        helpText("Please note that the y-axis on the comparison", 
-                 "landings plots will differ, to allow for a better",
-                 "representation of trends."),
+        h4("Landings Data"),
+        helpText("Data are available at FWC Commerical 
+                 Landings website 
+                 (https://public.myfwc.com/FWRI
+                 /PFDM/ReportCreator.aspx)."),
+      
         
-        selectInput("area1", label= h4("Apalachicola"), 
-                    choices=c("Apalach Landings", "Apalach Trips", "Apalach Per Trips" ), selected = "Apalach Landings"),
-        
-        selectInput("area2", label= h4("State"), 
-                    choices=c("State Landings", "State Trips","State Per Trips", "No Area" ), selected= "State Landings"),
-        
-        selectInput("area3", label= h4("Suwannee"), 
-                    choices=c("Suwannee Landings", "Suwannee Trips", "Suwannee per Trips", "No Area" ), selected= "Suwannee Landings")
-      ),
+        sliderInput("year_range", label = h4("Year Range"), min = 1986, 
+                    max = 2020, value = c(2015, 2020), sep = "", step= 1),
+      
+        helpText("Select the Year Range by moving the slider button."),   
+      
+selectInput("area1", label = h4("Area"), 
+            choices=c(unique(all_landings$area) %>% sort()), selected = "Apalachicola"),
+
+selectInput("area2", label = h4("Comparison Area"), 
+            choices=c(unique(all_landings$area) %>% sort()), selected = "Suwannee Sound"),
+
+helpText("Apalachicola region includes Franklin and Wukulla counties.
+         Suwannee Sound region includes Taylor, Dixie, and Levy counties.")),
+
   
       
       # Show a plot of the generated distribution
       mainPanel(
         width = 8,
         #h2("Comparison Figures"),
-        plotOutput("plot",height = "600px")
+        plotOutput("plot",height = "600px"),
+        downloadButton(outputId = "download_plot", label = "Download this figure")
+
       )
    )
 )
 
 # Define server logic required to draw a histogram
-server <- function(input, output) {
+server <- function(input, output,  plotInput) {
   
   plotInput <- reactive({
     
-      data <- data %>% 
-        filter(area == input$area1|area == input$area2|area == input$area3)
+      data <- all_landings %>% 
+        filter(area == input$area1 | area == input$area2) %>% 
+        filter(Year >= input$year_range[1] ,
+               Year <= input$year_range[2]) %>% 
+        select(area, Year, value, measurement)
     
+      data$value<- factor(data$value,levels=c ("Landings (lbs)", "Total Trips", "CPUE"))
       
-    ggplot(data=data, aes(x= Year, y= measurement)) +
-      labs(x= "Year", y="Pounds")+
-      geom_point( size=2)+
-      geom_line(linetype = "dashed")+
-      scale_x_continuous(limits=c(1986,2018), breaks=c(1986,1990,1994,1998,2002,2006,2010,2014,2018)) +
-    theme(panel.border = element_rect(color = "black", size = 0.5, fill = NA, linetype="solid"),
-          panel.grid.major = element_blank(),
+      breaks<- 1986:2020
+      
+    landings_plot<- ggplot(data=data, aes(x= as.numeric(Year), 
+                          y= as.numeric(measurement), linetype = as.factor(area))) +
+      labs(x= "Year")+
+      ylab("") +
+      geom_path(size= 1.2) +
+      geom_point(size=3) +
+      labs(linetype= "Area") +
+      scale_x_continuous(breaks = breaks) +
+      scale_y_continuous(labels = function(x) format(x, scientific = FALSE)) +
+    theme(legend.position = "top",
+      panel.border = element_rect(color = "black", size = 0.5, fill = NA, linetype="solid"),
+          panel.background = element_blank(),
+          panel.grid.major = element_blank(), 
           panel.grid.minor = element_blank(),
           axis.text=element_text(size=15),
           axis.title=element_text(size=15,face="bold"),
           plot.title =element_text(size=20, face='bold'),
           axis.text.x = element_text(angle = 90, hjust = 1),
-          strip.text = element_text(face="bold", size=15)) +
-      facet_wrap(~area, ncol=1, scales="free_y")
+          strip.text = element_text(face="bold", size=15),
+      legend.title=element_text(size=13), 
+      legend.text=element_text(size=13)) +
+      facet_wrap(~value, ncol=1, scales="free")
     
-    
+    landings_plot
    })
   
   output$plot <-renderPlot({
@@ -83,6 +106,14 @@ server <- function(input, output) {
     
   })
   
+  output$download_plot <- downloadHandler(
+    filename = function() {
+      "plot.jpeg"
+    },
+    content = function(file) {
+      ggsave(file, plotInput(), width = 10, height = 13)
+    }
+  )
 }
 
 # Run the application 
