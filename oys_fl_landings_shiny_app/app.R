@@ -27,7 +27,7 @@ ui <- fluidPage(theme = shinytheme("yeti"),
       sidebarPanel(
         
         h4("Landings Data"),
-        helpText("Data are available at FWC Commerical 
+        helpText("Data are available at the FWC Commerical 
                  Landings website 
                  (https://public.myfwc.com/FWRI
                  /PFDM/ReportCreator.aspx)."),
