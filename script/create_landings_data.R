@@ -3,6 +3,15 @@ library("dplyr")
 library ("tidyr")
 library("tidyverse")
 
+#Download latest county landings information from:
+#https://public.myfwc.com/FWRI/PFDM/ReportCreator.aspx
+
+#Slect the year, select Food and Bait
+
+#In Additional Output Columns select:
+#County, Pounds, Average Price, and Estimated Value
+
+
 ### Reading in the csv
 county_landings<- read.csv("oys_fl_landings_shiny_app/data/ReportCreatorResults-County.csv", header= T, skip = 9)
 

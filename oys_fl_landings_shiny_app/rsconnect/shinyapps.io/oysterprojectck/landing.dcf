@@ -5,8 +5,8 @@ account: oysterprojectck
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 346601
-bundleId: 3483906
+bundleId: 3695996
 url: https://oysterprojectck.shinyapps.io/landing/
-when: 1596743949.82703
+when: 1601656357.71219
 asMultiple: FALSE
 asStatic: FALSE
