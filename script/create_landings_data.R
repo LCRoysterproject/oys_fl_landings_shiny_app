@@ -6,7 +6,7 @@ library("tidyverse")
 #Download latest county landings information from:
 #https://public.myfwc.com/FWRI/PFDM/ReportCreator.aspx
 
-#Slect the year, select Food and Bait
+#Select the year, select Food and Bait
 
 #In Additional Output Columns select:
 #County, Pounds, Average Price, and Estimated Value

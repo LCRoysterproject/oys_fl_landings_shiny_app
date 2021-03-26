@@ -35,7 +35,7 @@ ui <- fluidPage(theme = shinytheme("yeti"),
       
         
         sliderInput("year_range", label = h4("Year Range"), min = 1986, 
-                    max = 2020, value = c(2015, 2020), sep = "", step= 1),
+                    max = 2021, value = c(2015, 2021), sep = "", step= 1),
       
         helpText("Select the Year Range by moving the slider button."),   
       
