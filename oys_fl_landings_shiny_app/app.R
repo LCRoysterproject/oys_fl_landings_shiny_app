@@ -35,7 +35,7 @@ ui <- fluidPage(theme = shinytheme("yeti"),
       
         
         sliderInput("year_range", label = h4("Year Range"), min = 1986, 
-                    max = 2021, value = c(2015, 2021), sep = "", step= 1),
+                    max = 2022, value = c(2015, 2022), sep = "", step= 1),
       
         helpText("Select the Year Range by moving the slider button."),   
       
@@ -75,7 +75,7 @@ server <- function(input, output,  plotInput) {
       select(area, Year, value, measurement)
     
     
-    breaks<- 1986:2020
+    breaks<- 1986:2022
     
     landings_plot<- ggplot(data=data, aes(x= as.numeric(Year), 
                                           y= as.numeric(measurement), linetype = as.factor(area))) +
@@ -108,7 +108,7 @@ server <- function(input, output,  plotInput) {
              Year <= input$year_range[2]) %>% 
       select(area, Year, value, measurement)
     
-    breaks1<- 1986:2020
+    breaks1<- 1986:2022
     
     data1$value<- factor(data1$value,levels=c ("Total Trips", "CPUE"))
     
